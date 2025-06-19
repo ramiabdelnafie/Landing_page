@@ -42,16 +42,27 @@ button, .section4 {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .section3 {
     background-color: #e5e7eb;
-    
+    padding: 200px;
+    color: #1f2937;
+}
+
+.whosaid {
+    font-size: 24px;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .maintext3 {
     font-size: 36px;
-    color: #1f2937;
     font-style: italic;
 }
 
@@ -60,6 +71,21 @@ button, .section4 {
    border-radius: 10px;
    padding: 50px;
    color: #f9faf8;
+}
+
+.signup2 {
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 36px;
+    margin: 10px 150px 30px 100px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header4 {
@@ -73,4 +99,24 @@ button, .section4 {
     align-items: center;
     justify-content: center;
     color: #f9faf8;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.text2 {
+    max-width: 200px;
+}
+
+.section2 {
+    margin: 50px 250px 150px 250px;
 }
